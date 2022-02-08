@@ -9,6 +9,11 @@ package ec.edu.intsuperior.controlador;
  *
  * @author Nelson
  */
+// Tipode Dato 
 public class Controlador {
+    
+    Administrador administrador = new Administrador(this);
+    Estudiante estudiante = new Estudiante(this);
+    Loggin loggin= new Loggin(this);
     
 }
